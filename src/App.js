@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import {Routes, Route, Link} from 'react-router-dom';
+import './App.scss';
+import Nav from './components/Navigation/nav';
+import Header from './components/Header/header';
+import Container from '@mui/material/Container';
+import LandingPage from './pages/landingpages';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="http://instagram.com/lethanhtin____"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Haha
-        </a>
-      </header>
+      <Nav />
+      <div className='AppBody'> 
+        <Header />
+
+        <Container className='container'>
+          <Routes>
+            <Route path="/LandingPage" element={<LandingPage />} />
+        
+          </Routes>
+        </Container>
+      </div>
     </div>
   );
 }

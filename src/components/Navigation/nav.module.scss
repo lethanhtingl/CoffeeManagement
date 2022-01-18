@@ -1,0 +1,50 @@
+
+
+@import "../scss/Mixed.scss";
+@import "../scss/Variable.scss";
+
+
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    max-width: 92px;
+    width: 100%;
+    height: 100%;
+    background-color: $whiteColor;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    justify-content: space-between;
+}
+
+.navLogo{
+    margin-top: 28px;
+    padding: 8px;
+    &:hover{
+        animation: circles linear 10s infinite;
+    }
+}
+
+
+
+.navItem{
+    margin: 8px;
+    padding: 16px 16px;
+    border-radius: 25px;
+    &:first-child{
+        margin-top: 36px;
+    }
+    &:hover{
+        transform: scale(1.3);
+        color: $primary;
+    }
+}
+
+.navLogout{
+    margin-bottom: 28px;
+    padding: 8px;
+
+    &:hover{
+        color: $primary;
+    }
+}
