@@ -1,7 +1,9 @@
 
 import Button from '@mui/material/Button';
 import CoffeeOutlinedIcon from '@mui/icons-material/CoffeeOutlined';
+import Tea from "../../assets/icon/tea.png";
 import styles from "./category.module.scss"
+
 function Category(){
     return(
         <div className={styles.category}>
@@ -14,12 +16,15 @@ function Category(){
                 </li>
                 <li className={styles.categoryItem}>
                     <Button variant="outlined" className={styles.CateBtn}>
-                    <CoffeeOutlinedIcon className={styles.cateIcon}/>
+                        <CoffeeOutlinedIcon className={styles.cateIcon}/>
                         Tea
                     </Button>
                 </li>
                 <li className={styles.categoryItem}>
-                    <Button variant="outlined" className={styles.CateBtn}>Beans</Button>
+                    <Button variant="outlined" className={styles.CateBtn}>
+                        <CoffeeOutlinedIcon className={styles.cateIcon}/>
+                        Beans
+                    </Button>
                 </li>
                 <li className={styles.categoryItem}>
                     <Button variant="outlined" className={styles.CateBtn}>Bundles</Button>

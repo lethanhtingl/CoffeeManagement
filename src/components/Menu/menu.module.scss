@@ -1,0 +1,39 @@
+@import "../scss/Variable.scss";
+
+
+.menuTitle{
+    text-align: left;
+    color: $textColor;
+    padding-left: 12px;
+}
+
+.menuList{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuForm{
+    width: 50%;
+}
+
+
+.menuItem{
+    text-decoration: none;
+    display: flex;
+}
+
+.productImg{
+    width: 128px;
+    height: 128px;
+}
+
+.detailBtn{
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-transform: none;
+    font-size: 1rem;
+}
