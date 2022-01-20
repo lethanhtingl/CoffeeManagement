@@ -1,0 +1,28 @@
+
+
+.categoryList{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.categoryItem{
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+.CateBtn{
+    text-transform: none !important;
+    width: 128px;
+    height: 48px;
+    border-radius: 25px !important;
+    line-height: 36px;
+    font-size: 1rem;
+    padding-left: 8px !important;
+}
+
+.cateIcon{
+    padding: 4px;
+}

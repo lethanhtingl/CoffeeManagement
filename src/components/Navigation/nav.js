@@ -19,7 +19,7 @@ function Nav() {
                     <AcUnitIcon className={styles.navLogo} color='primary'fontSize='large'/>  
                 </div>
                 <div>
-                    <Link to='/LandingPage'>
+                    <Link to='/'>
                         <HomeOutlinedIcon color='primary' className={styles.navItem} fontSize='large'/>
                     </Link>
                     <CategoryOutlinedIcon className={styles.navItem} fontSize='large'/>

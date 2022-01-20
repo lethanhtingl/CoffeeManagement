@@ -12,9 +12,9 @@ function App() {
       <div className='AppBody'> 
         <Header />
 
-        <Container className='container'>
+        <Container style={{padding: 0}} className='container'>
           <Routes>
-            <Route path="/LandingPage" element={<LandingPage />} />
+            <Route path="/" element={<LandingPage />} />
         
           </Routes>
         </Container>
