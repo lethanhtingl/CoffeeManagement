@@ -4,10 +4,46 @@ $primary: #439ae0;
 $textColor: #383838;
 $activeBtn: #212b33;
 $disableBtn: #efefef;
-$price: #90d2ad;
+$price: #5bc287;
 $discount: #cf9091;
 $esc: #d79092;
 $background: #f8f8f8;
-$disableTextColor: #cbcbcb;
+$disableTextColor: #aaaaaa;
 $whiteColor: #fff;
 $blackColor: #000;
+
+
+.active{
+    color: $whiteColor;
+    background-color: $primary;
+}
+
+.btn{
+    width: 100px;
+    padding: 12px;
+    color: $textColor;
+    background-color: $disableBtn;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.billBtn{
+    margin: 0 4px;
+}
+
+.primaryBtn{
+    color: $whiteColor;
+    background-color: $primary;
+    font-weight: 600;
+}
+
+.checkoutBtn{
+    width: 100%;
+    font-size: 1rem;
+}
+
+.payingTypeBtn{
+    width: 30%;
+}
