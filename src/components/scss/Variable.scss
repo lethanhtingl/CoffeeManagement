@@ -5,7 +5,7 @@ $textColor: #383838;
 $activeBtn: #212b33;
 $disableBtn: #efefef;
 $price: #5bc287;
-$discount: #cf9091;
+$discount: #ce8687;
 $esc: #d79092;
 $background: #f8f8f8;
 $disableTextColor: #aaaaaa;
@@ -27,6 +27,7 @@ $blackColor: #000;
     border: none;
     font-size: 0.9rem;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .billBtn{

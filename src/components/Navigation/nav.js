@@ -19,10 +19,12 @@ function Nav() {
                     <AcUnitIcon className={styles.navLogo} color='primary'fontSize='large'/>  
                 </div>
                 <div>
-                    <Link to='/'>
+                    <Link to='/' className={styles.pageLink}>
                         <HomeOutlinedIcon color='primary' className={styles.navItem} fontSize='large'/>
                     </Link>
-                    <CategoryOutlinedIcon className={styles.navItem} fontSize='large'/>
+                    <Link to='/Library' className={styles.pageLink}>
+                        <CategoryOutlinedIcon className={styles.navItem} fontSize='large'/>
+                    </Link>
                     <PaidOutlinedIcon className={styles.navItem} fontSize='large'/>
                     <PaymentOutlinedIcon className={styles.navItem} fontSize='large'/>
                     <SettingsOutlinedIcon className={styles.navItem} fontSize='large'/>

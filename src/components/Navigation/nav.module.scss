@@ -25,13 +25,16 @@
     }
 }
 
-
+.pageLink{
+    text-decoration: none;
+    color: $activeBtn
+}
 
 .navItem{
     margin: 8px;
     padding: 16px 16px;
     border-radius: 25px;
-    &:first-child{
+    &:nth-child(1){
         margin-top: 36px;
     }
     &:hover{
