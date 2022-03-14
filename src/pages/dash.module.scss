@@ -1,0 +1,93 @@
+
+
+@import "../components/scss/Variable.scss";
+@import "../components/scss/Mixed.scss";
+
+.dashBody{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideBar{
+    width: 70%;
+    padding-right: 36px;
+
+    > span{
+        font-size: 1.4rem;
+        font-weight: 600;
+        display: block;
+        text-align: left;
+        margin-bottom: 32px;
+    }
+}
+
+.listProceeds{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.proceedCard{
+    padding: 24px;
+    width: 200px;
+    height: 240px;
+    border-radius: 20px;
+    box-shadow: 6px 6px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    span{
+        text-align: left;
+        font-weight: 500;
+        padding: 4px 0;
+        color: $textColor;
+    }
+
+    > div{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+.proceedIcon{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 12px;
+    color: $whiteColor;
+}
+
+.proceedTitle{
+    font-size: 1.2rem;
+}
+
+.proceeded{
+    font-size: 1.8rem;
+}
+
+
+// CHART AND SOMETHING
+.chartAndSomething{
+    margin-top: 40px;
+}
+
+.chart{
+    width: 480px;
+    height: 280px;
+    border: 1px solid rgb(236, 236, 236);
+    background-image: url(https://apexcharts.com/wp-content/uploads/2018/01/basic-line-chart.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+
+
+
+.rightSideBar{
+    width: 30%;
+    border-left: 1px solid #ccc;
+}

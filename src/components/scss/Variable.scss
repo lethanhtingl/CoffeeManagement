@@ -13,9 +13,13 @@ $whiteColor: #fff;
 $blackColor: #000;
 
 
-.active{
-    color: $whiteColor;
-    background-color: $primary;
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    text-decoration: none;
 }
 
 .btn{
@@ -47,4 +51,29 @@ $blackColor: #000;
 
 .payingTypeBtn{
     width: 30%;
+}
+
+// DashBoard Color Charts
+.today{
+    background-color: rgba(251, 229, 145, 0.25);
+}
+
+.thisWeek{
+    background-color: #FFB6B6;
+}
+
+.thisMonth{
+    background-color: #DAF7E8;
+}
+
+.today .proceedIcon{
+    background-color: #8B7F50;
+}
+
+.thisWeek .proceedIcon{
+    background-color: #A36B6B;
+}
+
+.thisMonth .proceedIcon{
+    background-color: #5D9378;
 }
