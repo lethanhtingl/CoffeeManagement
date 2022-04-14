@@ -3,6 +3,7 @@
 .menu{
     height: 100%;
     overflow: scroll;
+    padding-right: 6px;
 
     &::-webkit-scrollbar{
         display: none;
@@ -29,10 +30,11 @@
 
 .menuForm{
     width: 44%;
-    margin-top: 36px;
+    margin-top: 32px;
     padding: 16px;
     background-color: $whiteColor;
     border-radius: 25px;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.05);
     
     &:nth-child(1){
         margin-top: 0;

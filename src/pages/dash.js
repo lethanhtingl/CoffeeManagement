@@ -8,7 +8,7 @@ function Dash(){
     return (
         <div className={styles.dashBody}>
             <div className = {styles.sideBar}>
-                <span>Good Morning Team!</span>
+                <span>Good Morning!</span>
                 <ul className={styles.listProceeds}>
                     <li className={`${styles.proceedCard} ${styles.today}`}>
                         <TodayIcon className={styles.proceedIcon}/>
@@ -35,7 +35,11 @@ function Dash(){
 
                 <div className={styles.chartAndSomething}>
                     <div className={styles.chart}>
-                        
+
+                    </div>
+
+                    <div className={styles.someThing}>
+
                     </div>
                 </div>
             </div>

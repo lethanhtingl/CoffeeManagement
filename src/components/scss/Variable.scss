@@ -59,21 +59,27 @@ li{
 }
 
 .thisWeek{
-    background-color: #FFB6B6;
+    background-color: rgba(255, 182, 182, 0.5);
 }
 
 .thisMonth{
-    background-color: #DAF7E8;
+    background-color: rgb(218, 247, 232);
 }
 
 .today .proceedIcon{
-    background-color: #8B7F50;
+    background-color: rgb(139, 127, 80);
 }
 
 .thisWeek .proceedIcon{
-    background-color: #A36B6B;
+    background-color: rgb(163, 107, 107);
 }
 
 .thisMonth .proceedIcon{
-    background-color: #5D9378;
+    background-color: rgb(93, 147, 120);
+}
+
+// ANIMATION 
+
+.rotate{
+    transform: rotate(180deg);
 }
